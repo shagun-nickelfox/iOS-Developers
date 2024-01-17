@@ -11,7 +11,38 @@
 		71F61DC42B5791D40021BAE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F61DC32B5791D40021BAE7 /* ContentView.swift */; };
 		71F61DC62B5791D60021BAE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F61DC52B5791D60021BAE7 /* Assets.xcassets */; };
 		71F61DC92B5791D60021BAE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F61DC82B5791D60021BAE7 /* Preview Assets.xcassets */; };
+		71F61DD22B5795990021BAE7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F61DD12B5795990021BAE7 /* CardView.swift */; };
+		71F61DD52B5796B90021BAE7 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F61DD42B5796B90021BAE7 /* CardModel.swift */; };
+		71F61DD82B5796E50021BAE7 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F61DD72B5796E50021BAE7 /* CardData.swift */; };
+		71F61DDB2B5798840021BAE7 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F61DDA2B5798840021BAE7 /* PlaySound.swift */; };
+		71F61DDD2B579B7A0021BAE7 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71F61DDC2B579B790021BAE7 /* sound-chime.mp3 */; };
+		71F61DE32B579D720021BAE7 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F61DE22B579D720021BAE7 /* Stickers.xcassets */; };
+		71F61DE72B579D720021BAE7 /* Learn By Doing Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71F61DE02B579D6F0021BAE7 /* Learn By Doing Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71F61DE52B579D720021BAE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71F61DB62B5791D40021BAE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71F61DDF2B579D6F0021BAE7;
+			remoteInfo = "Learn By Doing Stickers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71F61DEB2B579D720021BAE7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				71F61DE72B579D720021BAE7 /* Learn By Doing Stickers.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		71F61DBE2B5791D40021BAE7 /* Learn By Doing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn By Doing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +50,15 @@
 		71F61DC32B5791D40021BAE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71F61DC52B5791D60021BAE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71F61DC82B5791D60021BAE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71F61DCF2B5792260021BAE7 /* Learn-By-Doing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Learn-By-Doing-Info.plist"; sourceTree = SOURCE_ROOT; };
+		71F61DD12B5795990021BAE7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		71F61DD42B5796B90021BAE7 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		71F61DD72B5796E50021BAE7 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		71F61DDA2B5798840021BAE7 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		71F61DDC2B579B790021BAE7 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		71F61DE02B579D6F0021BAE7 /* Learn By Doing Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Learn By Doing Stickers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F61DE22B579D720021BAE7 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		71F61DE42B579D720021BAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				71F61DC02B5791D40021BAE7 /* Learn By Doing */,
+				71F61DE12B579D6F0021BAE7 /* Learn By Doing Stickers */,
 				71F61DBF2B5791D40021BAE7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				71F61DBE2B5791D40021BAE7 /* Learn By Doing.app */,
+				71F61DE02B579D6F0021BAE7 /* Learn By Doing Stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +93,12 @@
 		71F61DC02B5791D40021BAE7 /* Learn By Doing */ = {
 			isa = PBXGroup;
 			children = (
+				71F61DDC2B579B790021BAE7 /* sound-chime.mp3 */,
+				71F61DD92B5798270021BAE7 /* Utility */,
+				71F61DD62B5796D10021BAE7 /* Data */,
+				71F61DD32B5796A80021BAE7 /* Model */,
+				71F61DD02B5795850021BAE7 /* Views */,
+				71F61DCF2B5792260021BAE7 /* Learn-By-Doing-Info.plist */,
 				71F61DC12B5791D40021BAE7 /* Learn_By_DoingApp.swift */,
 				71F61DC32B5791D40021BAE7 /* ContentView.swift */,
 				71F61DC52B5791D60021BAE7 /* Assets.xcassets */,
@@ -67,6 +115,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		71F61DD02B5795850021BAE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71F61DD12B5795990021BAE7 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		71F61DD32B5796A80021BAE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71F61DD42B5796B90021BAE7 /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71F61DD62B5796D10021BAE7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				71F61DD72B5796E50021BAE7 /* CardData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		71F61DD92B5798270021BAE7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				71F61DDA2B5798840021BAE7 /* PlaySound.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		71F61DE12B579D6F0021BAE7 /* Learn By Doing Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				71F61DE22B579D720021BAE7 /* Stickers.xcassets */,
+				71F61DE42B579D720021BAE7 /* Info.plist */,
+			);
+			path = "Learn By Doing Stickers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +166,32 @@
 				71F61DBA2B5791D40021BAE7 /* Sources */,
 				71F61DBB2B5791D40021BAE7 /* Frameworks */,
 				71F61DBC2B5791D40021BAE7 /* Resources */,
+				71F61DEB2B579D720021BAE7 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				71F61DE62B579D720021BAE7 /* PBXTargetDependency */,
 			);
 			name = "Learn By Doing";
 			productName = "Learn By Doing";
 			productReference = 71F61DBE2B5791D40021BAE7 /* Learn By Doing.app */;
 			productType = "com.apple.product-type.application";
+		};
+		71F61DDF2B579D6F0021BAE7 /* Learn By Doing Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F61DE82B579D720021BAE7 /* Build configuration list for PBXNativeTarget "Learn By Doing Stickers" */;
+			buildPhases = (
+				71F61DDE2B579D6F0021BAE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learn By Doing Stickers";
+			productName = "Learn By Doing Stickers";
+			productReference = 71F61DE02B579D6F0021BAE7 /* Learn By Doing Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +204,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					71F61DBD2B5791D40021BAE7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					71F61DDF2B579D6F0021BAE7 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -116,6 +225,7 @@
 			projectRoot = "";
 			targets = (
 				71F61DBD2B5791D40021BAE7 /* Learn By Doing */,
+				71F61DDF2B579D6F0021BAE7 /* Learn By Doing Stickers */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +236,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				71F61DC92B5791D60021BAE7 /* Preview Assets.xcassets in Resources */,
+				71F61DDD2B579B7A0021BAE7 /* sound-chime.mp3 in Resources */,
 				71F61DC62B5791D60021BAE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F61DDE2B579D6F0021BAE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F61DE32B579D720021BAE7 /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +256,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F61DD82B5796E50021BAE7 /* CardData.swift in Sources */,
+				71F61DDB2B5798840021BAE7 /* PlaySound.swift in Sources */,
 				71F61DC42B5791D40021BAE7 /* ContentView.swift in Sources */,
+				71F61DD52B5796B90021BAE7 /* CardModel.swift in Sources */,
+				71F61DD22B5795990021BAE7 /* CardView.swift in Sources */,
 				71F61DC22B5791D40021BAE7 /* Learn_By_DoingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71F61DE62B579D720021BAE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71F61DDF2B579D6F0021BAE7 /* Learn By Doing Stickers */;
+			targetProxy = 71F61DE52B579D720021BAE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		71F61DCA2B5791D60021BAE7 /* Debug */ = {
@@ -274,9 +405,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Learn By Doing/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learn-By-Doing-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,9 +433,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Learn By Doing/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learn-By-Doing-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,6 +447,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71F61DE92B579D720021BAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learn By Doing Stickers/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Learn By Doing";
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI.Learn-By-Doing.Learn-By-Doing-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71F61DEA2B579D720021BAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learn By Doing Stickers/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Learn By Doing";
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwiftUI.Learn-By-Doing.Learn-By-Doing-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -337,6 +506,15 @@
 			buildConfigurations = (
 				71F61DCD2B5791D60021BAE7 /* Debug */,
 				71F61DCE2B5791D60021BAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F61DE82B579D720021BAE7 /* Build configuration list for PBXNativeTarget "Learn By Doing Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F61DE92B579D720021BAE7 /* Debug */,
+				71F61DEA2B579D720021BAE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
